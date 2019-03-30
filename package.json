@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "tools-wiki-osu",
+  "version": "0.1.0",
+  "description": "Imitation of MediaWiki's \"special pages\" but for osu-wiki",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "sass": "sass --watch ./resources/scss:./resources/css --style compressed",
+    "dev": "npm run start & npm run sass"
+  },
+  "author": "MegaApple_Pi",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^3.0.10",
+    "js-yaml": "^3.12.0"
+  }
+}

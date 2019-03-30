@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com/; font-src https://fonts.gstatic.com/"/>
+    <meta charset="utf-8"/>
+    <title>tools-wiki-osu</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans"/>
+    <link rel="stylesheet" href="resources/css/index.css"/>
+  </head>
+  <body>
+    <div class="path" data-hidden>
+      <div class="path-label">osu-wiki folder path:</div>
+      <input class="path-input"/>
+      <div class="path-confirm" data-button>OK</div>
+    </div>
+    <div class="progress" data-hidden>
+      <div class="progress-label">
+        <span>Progress:</span>
+        <span class="progress-status"></span>
+      </div>
+    </div>
+    <div class="menu" data-hidden>
+      <div>
+        <h2>Linkage</h2>
+        <div class="menu-link-here" data-button>What links here</div>
+        <div class="menu-link-there" data-button>Here links there</div>
+        <div class="menu-link-popular" data-button>Popular files</div>
+        <div class="menu-link-external" data-button>External links</div>
+      </div>
+      <hr/>
+      <div>
+        <h2>Page relations and stats</h2>
+        <div class="menu-page-orphaned" data-button>Orphaned pages</div>
+        <div class="menu-page-deadend" data-button>Dead-end pages</div>
+        <div class="menu-page-noimg" data-button>Pages without images</div>
+        <div class="menu-page-short" data-button>Short pages</div>
+        <div class="menu-page-long" data-button>Long pages</div>
+      </div>
+      <hr/>
+      <div>
+        <h2>Housecleaning</h2>
+        <div class="menu-broken-link" data-button>Broken links</div>
+        <div class="menu-broken-redir" data-button>Broken redirects</div>
+        <div class="menu-broken-image" data-button>Broken images</div>
+        <div class="menu-unused" data-button>Unused images</div>
+        <div class="menu-redir" data-button>Redirects</div>
+      </div>
+    </div>
+    <div class="list" data-hidden>
+      <div class="list-back" data-button>Back</div>
+      <div class="list-desc"></div>
+      <ul class="list-list"></ul>
+    </div>
+    <div class="result" data-hidden>
+      <div class="result-back" data-button>Back</div>
+      <ul class="result-list"></ul>
+    </div>
+    <script src="resources/js/index.js" type="module"></script>
+  </body>
+</html>
